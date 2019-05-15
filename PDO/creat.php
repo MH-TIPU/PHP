@@ -22,7 +22,9 @@
       
       <input type="text" name="name"><br>
       <input type="text" name="email"><br>
-      <input type="submit" value="save">
+      <input type="submit" value="save"><br><br><br>
+
+      <a href="http://localhost/PDO/Edit.php?"><input type="button" value="Show All Data"></a>
 
     </form>
 

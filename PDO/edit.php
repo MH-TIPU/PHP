@@ -15,7 +15,7 @@
 
 
         
-        
+        echo '<a href="http://localhost/PDO/index.php?"><input type="button" value="Home"></a>';
     
 
 
