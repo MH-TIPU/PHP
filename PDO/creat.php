@@ -11,7 +11,7 @@
         $sql = 'INSERT INTO people(name,email) VALUES(:name, :email)';
         $statement = $pdo->prepare($sql);
         if($statement->execute([':name' => $name, ':email' => $email])){
-            echo "<script type='text/javascript'>alert('Data Insert Successfull');</script>";
+            echo "<script type='text/javascript'>alert('Data Insert Successfully');</script>";
         }
       }
 
