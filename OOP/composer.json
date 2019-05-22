@@ -1,0 +1,16 @@
+{
+    "name": "vendor/dir",
+    "description": "none",
+    "authors": [
+        {
+            "name": "Mosaraf Hossain Tipu",
+            "email": "iammhtipu@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4" : {
+            "Dir\\": "src"
+        }
+    },
+    "require": {}
+}
