@@ -8,4 +8,10 @@
 
     $Rakib->showInfo();
 
+    $Rakib->deposit(10000);
+    echo "<br>";
+    $Rakib->withdrow(500);
+    echo "<br>";
+    $Rakib->showBalance();
+
 ?>
