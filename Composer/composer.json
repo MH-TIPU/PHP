@@ -1,0 +1,17 @@
+{
+    "name": "tarek/tarek",
+    "description": "none",
+    "authors": [
+        {
+            "name": "Mosaraf Hossain Tipu",
+            "email": "iammhtipu@gmail.com"
+        }
+    ],
+    "autoload":{
+    	"psr-4" : {
+    		"Tareq\\": "Classes"
+    	}
+    },
+
+    "require": {}
+}
