@@ -2,9 +2,9 @@
 
 
 namespace Dir;
+use Dir\Account;
 
-
-class Person
+class Person extends Account
 {
     private $name;
     private $age;
@@ -25,6 +25,12 @@ class Person
 
     function showInfo(){
         echo "Name : " . $this->name . " Age : " . $this->age . " Email " . $this->email . " Phone " . $this->phone ;
+    }
+
+
+
+    function showBalance(){
+        echo $this->getAccountBalance();
     }
 
 
