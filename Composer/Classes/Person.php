@@ -8,7 +8,7 @@ class Person
 	
 	function done()
 	{
-		echo "Bissas hoy na ?";			
+		echo "Person Echo ?";
 	}
 
 
