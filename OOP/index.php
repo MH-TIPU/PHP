@@ -13,5 +13,4 @@
     $Rakib->withdrow(500);
     echo "<br>";
     $Rakib->showBalance();
-
 ?>
